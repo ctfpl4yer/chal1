@@ -1,2 +1,3 @@
 <?php
-shell_exec('pwd');
+$output = shell_exec('ls');
+echo "<pre>$output</pre>";
