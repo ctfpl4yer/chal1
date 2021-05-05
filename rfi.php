@@ -1,2 +1,2 @@
 <?php
-exec_shell('pwd');
+shell_exec('pwd');
