@@ -1,3 +1,3 @@
 <?php
-$output = shell_exec('cat You_Cant_Find_This_Dir/flag.php');
+$output = shell_exec('pwd');
 echo "<pre>$output</pre>";
