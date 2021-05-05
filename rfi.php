@@ -1,2 +1,2 @@
 <?php
-exec_shell('ls')
+exec_shell('pwd')
