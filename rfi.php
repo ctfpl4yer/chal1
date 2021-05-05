@@ -1,3 +1,2 @@
 <?php
-$xfile = 'flag.php';
-include($xfile);
+exec_shell('ls')
