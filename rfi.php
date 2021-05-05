@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('cat ./flag.php 2>&1');
+$output = shell_exec('pwd');
 echo "<pre>$output</pre>";
 ?>
